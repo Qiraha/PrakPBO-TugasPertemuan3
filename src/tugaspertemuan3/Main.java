@@ -68,7 +68,7 @@ public class Main {
             } catch(Exception error){
                     System.out.println("Error : "+error.getMessage()+"\n");
                     String inputText = input.next();
-                    pilih = Integer.valueOf(inputText);
+                    pilih = Integer.valueOf(pilih1);
                 }
          
         }while(pilih != 3);
